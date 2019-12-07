@@ -1,4 +1,4 @@
-1) clone this repository onto your machine.
+1) Clone this repository onto your machine.
 2) Open project and import Opsive UCC (TPC or FPC should both work)
 3) Import and set up an Opsive character.
 4) Add the HAPRide ability to your Opsive character.
@@ -7,7 +7,7 @@
 
 Step 6 Visual references.
 1.
-![Image of Step](https://pasteboard.co/IKbsitX.jpg)
+[Image of Step](https://pasteboard.co/IKbtLRD.jpg)
 2.
 ![Image of Cameras Setup](https://pasteboard.co/IKbsXpV.jpg)
 3.
