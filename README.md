@@ -9,6 +9,6 @@ Step 6 Visual references.
 1.
 [Image of Step](https://pasteboard.co/IKbtLRD.jpg)
 2.
-![Image of Cameras Setup](https://pasteboard.co/IKbsXpV.jpg)
+[Image of Cameras Setup](https://pasteboard.co/IKbsXpV.jpg)
 3.
-![Image of Step](https://pasteboard.co/IKbtaxm.jpg)
+[Image of Step](https://pasteboard.co/IKbtaxm.jpg)
