@@ -7,8 +7,8 @@
 
 Step 6 Visual references.
 1:
-[Step 1](https://pasteboard.co/IKbtLRD.jpg)
+[MRider and HAPDismount Scripts Component Setup](https://pasteboard.co/IKbtLRD.jpg)
 2:
 [Cameras Setup](https://pasteboard.co/IKbsXpV.jpg)
 3:
-[Step 3](https://pasteboard.co/IKbtaxm.jpg)
+[HAPRide Ability Setup](https://pasteboard.co/IKbtaxm.jpg)
