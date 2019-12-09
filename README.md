@@ -16,20 +16,20 @@ Step 6 Visual references.
 Optional Step to remove the IndexOutOfBounds error:
 Go into KinematicObjectManager.cs which is a script included with Opsive UCC at the time of writing.
 Change the code here:
- private void SetCharacterMovementInputInternal(int characterIndex, float horizontalMovement, float forwardMovement)
+ `private void SetCharacterMovementInputInternal(int characterIndex, float horizontalMovement, float forwardMovement)
         {
             m_Characters[characterIndex].HorizontalMovement = horizontalMovement;
             m_Characters[characterIndex].ForwardMovement = forwardMovement;
-        }
+        }`
         
 To this code:
- private void SetCharacterMovementInputInternal(int characterIndex, float horizontalMovement, float forwardMovement)
+ `private void SetCharacterMovementInputInternal(int characterIndex, float horizontalMovement, float forwardMovement)
         {
             if (characterIndex >0) {
             m_Characters[characterIndex].HorizontalMovement = horizontalMovement;
             m_Characters[characterIndex].ForwardMovement = forwardMovement;
             }
-        }
+        }`
 
 That should remove all errors.
 Enjoy!
