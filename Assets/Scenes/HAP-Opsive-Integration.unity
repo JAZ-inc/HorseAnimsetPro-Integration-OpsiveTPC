@@ -3675,6 +3675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 2029814550}
   mRider: {fileID: 520472655}
+  inputName: Action
 --- !u!1 &626811124
 GameObject:
   m_ObjectHideFlags: 0
