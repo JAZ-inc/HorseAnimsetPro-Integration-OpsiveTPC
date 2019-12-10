@@ -1,9 +1,10 @@
 1) Clone this repository onto your machine.
 2) Open project and import Opsive UCC (TPC or FPC should both work)
 3) Import and set up an Opsive character.
-4) Add the HAPRide ability to your Opsive character.
-5) Add the HAPDismount Script as a new component on your Opsive character.
-6) Set the component references in the ability HAPRide and HAPDismount as they are shown in the images.
+4) Add the Rider script from HAP and the new HAPRide ability to your Opsive character.
+5) Go to the rider component and click the "Setup Mount Layer" button to add the riding animations to your animator controller. Then add the HAPDismount Script as a new component on your Opsive character.
+6) Set the component references in the ability HAPRide and scripts Rider, and HAPDismount as they are shown in the images.
+7) You will have no cameras rendering when the character goes to mount the horse unless you add a camera which follows the characters Head transform. I recommend one of the HAP camera prefabs. Place this camera below your UCC camera in the hierarchy so it will just take over when the UCC camera component is disabled for the HAPRide ability.
 
 Step 6 Visual references.
 1:
