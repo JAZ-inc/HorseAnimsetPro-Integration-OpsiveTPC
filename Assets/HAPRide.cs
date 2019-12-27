@@ -16,11 +16,7 @@ public class HAPRide : DetectObjectAbilityBase
     {
         base.AbilityStarted();
         //Disable the UCC camera since there is no UCC character on the horse.
-        if (m_Camera != null)
-        {
-            m_Camera.enabled = false;
-        }
-        else
+        if (m_Camera = null)
         { Debug.LogError("The 'HAPRide' script requires a reference to the Camera with a UCC Camera Controller script attached."); }
 
         //Trying to mount a horse!

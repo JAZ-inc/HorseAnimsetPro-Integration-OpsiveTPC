@@ -1,5 +1,6 @@
 ﻿using MalbersAnimations.HAP;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HAPDismount : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class HAPDismount : MonoBehaviour
     [Tooltip("The input name used for dismounting.")]
     [SerializeField] private string inputName;
     bool CanDismount=false;
+    
 
 
     // Start is called before the first frame update
@@ -23,26 +25,31 @@ public class HAPDismount : MonoBehaviour
     {
         if (Input.GetButtonDown(inputName))
         {
-            NewMethod();
+            StartDismount();
         }
 
-        if (mRider.IsRiding && CanDismount == false)
-        {
-            CanDismount = true;
-        }
-
-        if (CanDismount == true) {
-        if (!mRider.IsOnHorse)
-        {
-            //Enable the UCC camera since there is now a UCC character on the horse again!
-            m_Camera.enabled = true;
-            CanDismount = false;
-        }
-    }
 
     }
 
-    private void NewMethod()
+    private void ResetUCCCamera()
+    {
+        //Enable the UCC camera since there is now a UCC character again!
+        m_Camera.enabled = true;
+        CanDismount = false;
+    }
+
+    private void StartMount()
+    {
+        //Disable the UCC camera since there is no UCC character on the horse.
+        if (m_Camera != null)
+        {
+            m_Camera.enabled = false;
+        }
+        else
+        { Debug.LogError("The 'HAPRide' script requires a reference to the Camera with a UCC Camera Controller script attached."); }
+    }
+
+    private void StartDismount()
     {
         //Trying to dismount a horse!
         mRider.DismountAnimal();
