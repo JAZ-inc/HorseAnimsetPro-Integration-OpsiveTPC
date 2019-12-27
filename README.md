@@ -13,6 +13,8 @@ Step 6 Visual references.
 [Cameras Setup](https://pasteboard.co/IKbsXpV.jpg)
 3:
 [HAPRide Ability Setup](https://pasteboard.co/IKbtaxm.jpg)
+4:
+[(Final Camera Error Fix) Event Setup](https://pasteboard.co/INcuX2v.jpg)
 
 Optional Step to remove the IndexOutOfBounds error:
 Go into KinematicObjectManager.cs which is a script included with Opsive UCC at the time of writing.
