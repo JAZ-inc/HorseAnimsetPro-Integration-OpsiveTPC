@@ -27,8 +27,6 @@ public class HAPDismount : MonoBehaviour
         {
             StartDismount();
         }
-
-
     }
 
     private void ResetUCCCamera()

@@ -3682,7 +3682,6 @@ MonoBehaviour:
     Variable: {fileID: 0}
   DisableList:
   - {fileID: 520472649}
-  - {fileID: 520472649}
   Editor_Tabs1: 0
 --- !u!114 &520472656
 MonoBehaviour:
