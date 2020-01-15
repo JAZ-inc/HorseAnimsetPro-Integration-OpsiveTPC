@@ -34,5 +34,8 @@ To this code:
             }
         }`
 
-That should remove all errors.
+
+Optional step to tweak the reins and get them looking more realistic:[Tweak the IKReins Component on your Horse](https://pasteboard.co/IQ5Ourm.jpg)
+
+That should remove all errors and give a seamless integrated effect.
 Enjoy!
