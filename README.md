@@ -6,6 +6,7 @@
 6) Set the component references in the ability HAPRide and scripts Rider, and HAPDismount as they are shown in the images.
 7) You will have no cameras rendering when the character goes to mount the horse unless you add a camera which follows the characters Head transform. I recommend one of the HAP camera prefabs. Place this camera below your UCC camera in the hierarchy so it will just take over when the UCC camera component is disabled for the HAPRide ability.
 
+
 Step 6 Visual references.
 1:
 [MRider and HAPDismount Scripts Component Setup](https://pasteboard.co/IKbtLRD.jpg)
